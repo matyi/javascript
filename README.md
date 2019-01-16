@@ -1,22 +1,13 @@
-# Airbnb JavaScript Style Guide() {
+# Digital Natives JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+_Forked from [airbnb's style guide](https://github.com/airbnb/javascript)_
 
-> **Note**: this guide assumes you are using [Babel](https://babeljs.io), and requires that you use [babel-preset-airbnb](https://npmjs.com/babel-preset-airbnb) or the equivalent. It also assumes you are installing shims/polyfills in your app, with [airbnb-browser-shims](https://npmjs.com/airbnb-browser-shims) or the equivalent.
+## Rules to discuss
 
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-This guide is available in other languages too. See [Translation](#translation)
-
-Other Style Guides
-
-  - [ES5 (Deprecated)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
-  - [React](react/)
-  - [CSS-in-JavaScript](css-in-javascript/)
-  - [CSS & Sass](https://github.com/airbnb/css)
-  - [Ruby](https://github.com/airbnb/ruby)
+- [10.6](#modules--prefer-default-export) In modules with a single export, prefer default export over named export.
+  eslint: [`import/prefer-default-export`]
+- [Consistent return](https://eslint.org/docs/rules/consistent-return) require return statements to either always or never specify values
+  eslint: [`consistent-return`]
 
 ## Table of Contents
 
