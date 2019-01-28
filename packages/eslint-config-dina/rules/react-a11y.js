@@ -206,5 +206,7 @@ module.exports = {
       specialLink: ['to'],
       aspects: ['noHref', 'invalidHref', 'preferButton'],
     }],
+
+    'jsx-a11y/control-has-associated-label': 'off'
   },
 };

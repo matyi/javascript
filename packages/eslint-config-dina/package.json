@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dina",
-  "version": "17.1.0",
+  "version": "1.0.0",
   "description": "Digital Natives' ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -55,7 +55,7 @@
   },
   "homepage": "https://github.com/digitalnatives/javascript",
   "dependencies": {
-    "eslint-config-dina-base": "^13.1.0",
+    "eslint-config-dina-base": "^1.0.0",
     "object.assign": "^4.1.0",
     "object.entries": "^1.0.4"
   },
