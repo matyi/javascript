@@ -4,10 +4,7 @@ _Forked from [airbnb's style guide](https://github.com/airbnb/javascript)_
 
 ## Rules to discuss
 
-- [10.6](#modules--prefer-default-export) In modules with a single export, prefer default export over named export.
-  eslint: [`import/prefer-default-export`]
-- [Consistent return](https://eslint.org/docs/rules/consistent-return) require return statements to either always or never specify values
-  eslint: [`consistent-return`]
+nothing here for now.
 
 ## Table of Contents
 
@@ -1333,10 +1330,10 @@ _Forked from [airbnb's style guide](https://github.com/airbnb/javascript)_
   <a name="modules--prefer-default-export"></a>
   - [10.6](#modules--prefer-default-export) In modules with a single export, prefer default export over named export.
  eslint: [`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)
-    > Why? To encourage more files that only ever export one thing, which is better for readability and maintainability.
+    > Why? To encourage more files that only ever export one thing, which is better for readability and maintainability. We decided to turn it off.
 
     ```javascript
-    // bad
+    // maybe not that bad
     export function foo() {}
 
     // good
