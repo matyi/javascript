@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb-base",
+  "name": "eslint-config-dina-base",
   "version": "13.1.0",
-  "description": "Airbnb's base JS ESLint config, following our styleguide",
+  "description": "Digital Natives' base JS ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
@@ -17,13 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/digitalnatives/javascript"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
     "airbnb",
+    "dina",
     "javascript",
     "styleguide",
     "es2015",
@@ -49,9 +50,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/digitalnatives/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/digitalnatives/javascript",
   "devDependencies": {
     "babel-preset-airbnb": "^2.5.3",
     "babel-tape-runner": "^2.0.1",

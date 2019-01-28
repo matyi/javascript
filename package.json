@@ -4,26 +4,27 @@
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
-    "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
-    "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
+    "install:config": "cd packages/eslint-config-dina && npm prune && npm install",
+    "install:config:base": "cd packages/eslint-config-dina-base && npm prune && npm install",
     "lint": "markdownlint --config linters/.markdownlint.json README.md */README.md",
     "pretest": "npm run --silent lint",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
-    "test:config": "cd packages/eslint-config-airbnb; npm test",
-    "test:config:base": "cd packages/eslint-config-airbnb-base; npm test",
+    "test:config": "cd packages/eslint-config-dina; npm test",
+    "test:config:base": "cd packages/eslint-config-dina-base; npm test",
     "pretravis": "npm run --silent lint",
     "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
-    "travis:config": "cd packages/eslint-config-airbnb; npm run travis",
-    "travis:config:base": "cd packages/eslint-config-airbnb-base; npm run travis"
+    "travis:config": "cd packages/eslint-config-dina; npm run travis",
+    "travis:config:base": "cd packages/eslint-config-dina-base; npm run travis"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript.git"
+    "url": "https://github.com/digitalnatives/javascript.git"
   },
   "keywords": [
     "style guide",
     "lint",
     "airbnb",
+    "dina",
     "es6",
     "es2015",
     "es2016",
@@ -35,9 +36,9 @@
   "author": "Matyas Juhasz (matyas.juhasz@digitalnatives.hu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/digitalnatives/javascript/issues"
   },
-  "homepage": "https://github.com/matyi/javascript",
+  "homepage": "https://github.com/digitalnatives/javascript",
   "devDependencies": {
     "markdownlint-cli": "^0.13.0"
   }
