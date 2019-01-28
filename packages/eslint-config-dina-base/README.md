@@ -1,6 +1,6 @@
 # eslint-config-dina-base
 
-[![npm version](https://badge.fury.io/js/eslint-config-airbnb-base.svg)](http://badge.fury.io/js/eslint-config-airbnb-base)
+[![npm version](https://badge.fury.io/js/eslint-config-dina-base.svg)](http://badge.fury.io/js/eslint-config-dina-base)
 
 This package provides Digital Natives' base JS .eslintrc (without React plugins) as an extensible shared config.
 
